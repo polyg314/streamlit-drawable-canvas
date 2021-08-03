@@ -115,7 +115,7 @@ def st_canvas(
 
     # Clean initial drawing, override its background color
     initial_drawing = {"version": "4.4.0"} if initial_drawing is None else initial_drawing
-#     initial_drawing["background"] = background_color
+    initial_drawing["background"] = background_color
 
     component_value = _component_func(
         fillColor=fill_color,
